@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" 
+    href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/4c265cdcbb.js" crossorigin="anonymous"></script>
+    <title>Products Details | The Green</title>
+
+</head>
+
+<body>
+    <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="/static/images/logo-white.png" width="200px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="account-details.html">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="/static/images/shopping-cart.png" width="30px" height="30px"></a>
+                <img src="/static/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+
+<!-- ------- cart product details ------  -->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="/static/images/product/Cabbage-03.jpg">
+                    <div>
+                        <p>Cabbage</p>
+                        <small>Price: $50.00</small> 
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$50.00</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="/static/images/product/chilli-02.jpg">
+                    <div>
+                        <p>Red chilli</p>
+                        <small>Price: $40.00</small> 
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$50.00</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="/static/images/product/mango-03.jpg">
+                    <div>
+                        <p>Mango</p>
+                        <small>Price: $30.00</small> 
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$50.00</td>
+        </tr>
+    </table>
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>$200.00</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>$2.00</td>
+            </tr>
+            <tr>
+                <td>Delivery charge</td>
+                <td>$4.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>$194.00</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+<!-- ------ footer ---------  -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="/static/images/play-store.png">
+                    <img src="/static/images/app-store.png">
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="/static/images/logo-black.png">
+                <p>Building partnerships to bring you the best of nature's bounty
+                    and Expanding your culinary horizons with our wide variety of natural products.</p>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Retun Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>LinkedIn</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright © Wajith 2022. All rights reserved.</p>
+    </div>
+</div>
+
+
+    <!--JS files-->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
